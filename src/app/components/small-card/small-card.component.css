@@ -1,0 +1,10 @@
+.container_small_card {
+  border: solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.small_card_image img {
+  width: 60%;
+}

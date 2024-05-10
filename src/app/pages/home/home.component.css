@@ -1,0 +1,16 @@
+.container_articles {
+  border: solid white;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.article_main {
+  background-color: aqua;
+}
+
+.article_others {
+  background-color: brown;
+}
