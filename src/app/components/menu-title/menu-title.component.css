@@ -8,5 +8,6 @@
 }
 
 .container_menu_title > hr {
+  margin-top: 5px;
   margin-bottom: 5px;
 }
