@@ -1,16 +1,25 @@
+header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container_articles {
-  border: solid white;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin: 20px;
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
 .article_main {
   background-color: aqua;
+  display: flex;
+  justify-content: space-around;
 }
 
 .article_others {
+  padding: 0 20px;
   background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }

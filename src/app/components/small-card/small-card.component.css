@@ -1,10 +1,23 @@
 .container_small_card {
-  border: solid white;
+  margin-bottom: 15px;
+}
+
+.container_small_card_content {
+  width: 500px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .small_card_image img {
-  width: 60%;
+  padding: 0 10px 10px 0;
+  margin-right: 10px;
+  width: 150px;
+  min-width: 150px;
+}
+
+.small_card_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
