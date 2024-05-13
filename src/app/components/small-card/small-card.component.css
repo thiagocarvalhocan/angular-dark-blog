@@ -3,17 +3,17 @@
 }
 
 .container_small_card_content {
-  width: 500px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .small_card_image img {
-  padding: 0 10px 10px 0;
+  padding: 0 2% 10px 0;
   margin-right: 10px;
-  width: 150px;
-  min-width: 150px;
+  width: 80%;
+  max-width: 150px;
+  min-width: 50px;
 }
 
 .small_card_text {
