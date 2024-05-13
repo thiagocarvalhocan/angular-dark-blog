@@ -11,7 +11,7 @@
 .small_card_image img {
   padding: 0 2% 15px 0;
   margin-right: 10px;
-  width: 80%;
+  width: 100px;
   max-width: 150px;
   min-width: 50px;
 }
@@ -20,4 +20,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
 }
