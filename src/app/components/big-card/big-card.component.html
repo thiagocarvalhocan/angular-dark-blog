@@ -1,15 +1,19 @@
 <div class="container_big_card">
 
-    <a href="#">
-        <div class="big_card_image">
-            <img src="{{photo}}" alt="" title="">
-        </div>May 2024
-        <div class="big_card_title">
-            <h2>{{title}}</h2>
-        </div>
-    </a>
+
+    <div class="big_card_image">
+        <a [routerLink]="['content',Id]">
+            <img src="{{photoBigCard}}" alt="" title="">
+        </a>
+
+    </div>
+    May 2024
+
+    <div class="big_card_title">
+        <h2><a [routerLink]="['content',Id]">{{titleBigCard}}</a></h2>
+    </div>
     <div class="big_card_description">
-        <p>{{description}}</p>
+        <p>{{descriptionBigCard}}</p>
     </div>
 
 </div>

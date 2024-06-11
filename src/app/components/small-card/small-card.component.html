@@ -1,11 +1,14 @@
 <div class="container_small_card">
     <div class="container_small_card_content">
         <div class="small_card_image">
-            <img src="{{photoSmall}}" alt="">
+            <a [routerLink]="['content', Id]">
+                <img src="{{photoSmall}}" alt="">
+            </a>
         </div>
         <div class="small_card_text">
             <h3>
-                <a href="#"> {{titleSmall}}
+                <a [routerLink]="['content',Id]">
+                    {{titleSmall}}
                 </a>
             </h3>
         </div>
